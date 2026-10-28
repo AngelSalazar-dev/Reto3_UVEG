@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reto 3 Angel Salazar">
+    <title>Registro de la persona Usuaria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Registro de la persona Usuaria</h1>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="descripcion">Descripción sobre ti:</label>
+                <textarea id="descripcion" name="descripcion" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Intereses:</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="intereses" value="Tecnología"> Tecnología</label>
+                    <label><input type="checkbox" name="intereses" value="Arte"> Arte</label>
+                    <label><input type="checkbox" name="intereses" value="Deporte"> Deporte</label>
+                </div>
+            </div>
+            <button type="submit" id="btn-enviar">Registrarse</button>
+        </form>
+    </div>
+</body>
+</html>
